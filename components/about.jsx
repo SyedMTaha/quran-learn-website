@@ -5,10 +5,9 @@ export default function About() {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-slate-800 mb-4">About Quran Learn Academy</h2>
+          <h2 className="text-4xl font-bold text-slate-800 mb-4">About Noor ul Quran </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            We are dedicated to providing authentic Islamic education through modern technology, making Quran learning
-            accessible to everyone, everywhere.
+          Noor-ul-Quran is an online Quran learning platform dedicated to teaching the Holy Quran with proper Tajweed to learners of all ages across the world, especially children and women. Our aim is to make Quranic education simple, accessible, and spiritually enriching from the comfort of your home.
           </p>
         </div>
 

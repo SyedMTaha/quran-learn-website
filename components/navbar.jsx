@@ -21,7 +21,7 @@ export default function Navbar() {
     { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Packages", href: "#packages" },
-    { name: "Reviews", href: "#testimonials" },
+    // { name: "Reviews", href: "#testimonials" },
     { name: "Contact", href: "#contact" },
   ]
 
@@ -44,10 +44,14 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center space-x-3 group cursor-pointer">
             <div className="relative">
-              <div className="w-12 h-12 bg-gradient-to-br from-amber-500 via-amber-600 to-orange-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 animate-pulse-glow">
-                <div className="text-white font-bold text-xl">Q</div>
-              </div>
-              <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white animate-pulse"></div>
+              {/* <div className="w-12 h-12 bg-gradient-to-br from-amber-500 via-amber-600 to-orange-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 animate-pulse-glow"> */}
+                  <img 
+                   src="/images/logo4.png" 
+                   alt="Noor ul Quran Logo" 
+                   className="w-12 h-12 object-contain"
+                 />
+              {/* </div> */}
+              {/* <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white animate-pulse"></div> */}
             </div>
             <div className="hidden sm:block">
               <h1
@@ -55,7 +59,7 @@ export default function Navbar() {
                   scrolled ? "text-slate-800" : "text-white"
                 }`}
               >
-                Quran Learn Academy
+                Noor ul Quran 
               </h1>
               <p className="text-xs lg:text-sm text-amber-600 font-medium">Learn • Understand • Practice</p>
             </div>
@@ -65,7 +69,7 @@ export default function Navbar() {
                   scrolled ? "text-slate-800" : "text-white"
                 }`}
               >
-                QLA
+                Noor ul Quran
               </h1>
             </div>
           </div>
@@ -84,9 +88,9 @@ export default function Navbar() {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
               </button>
             ))}
-            <button className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-6 py-2 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+            {/* <button className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-6 py-2 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               Start Free Trial
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile menu button */}

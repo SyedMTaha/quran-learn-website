@@ -65,14 +65,14 @@ export default function Services() {
       bgGradient: "from-pink-50 to-rose-50",
       delay: "delay-500",
     },
-    {
-      icon: Star,
-      title: "Arabic Language",
-      description: "Learn Arabic language to better understand the Quran and Islamic texts.",
-      gradient: "from-indigo-500 to-blue-500",
-      bgGradient: "from-indigo-50 to-blue-50",
-      delay: "delay-[600ms]",
-    },
+    // {
+    //   icon: Star,
+    //   title: "Arabic Language",
+    //   description: "Learn Arabic language to better understand the Quran and Islamic texts.",
+    //   gradient: "from-indigo-500 to-blue-500",
+    //   bgGradient: "from-indigo-50 to-blue-50",
+    //   delay: "delay-[600ms]",
+    // },
   ]
 
   return (

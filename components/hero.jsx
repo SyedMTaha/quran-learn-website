@@ -45,7 +45,7 @@ export default function Hero() {
               >
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
               </svg>
-              <span className="text-sm font-medium">Trusted by 5000+ Students Worldwide</span>
+              <span className="text-sm font-medium">Trusted by 500+ Students Worldwide</span>
             </div>
 
             <div className="space-y-6">
@@ -78,7 +78,7 @@ export default function Hero() {
                 >
                   <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
                 </svg>
-                Start Free Trial
+                Start Today
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -137,7 +137,7 @@ export default function Hero() {
                       <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                   ),
-                  number: "5000+",
+                  number: "500+",
                   label: "Students",
                 },
                 {

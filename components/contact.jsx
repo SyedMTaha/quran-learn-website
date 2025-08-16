@@ -1,3 +1,5 @@
+import { Phone, Mail, Clock } from "lucide-react"
+
 export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-white">
@@ -16,75 +18,32 @@ export default function Contact() {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="w-6 h-6 text-amber-600"
-                    >
-                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.62-3.07 19.5 19.5 0 0 1-6.38-6.38A19.79 19.79 0 0 1 3.08 5.08 2 2 0 0 1 5 3a2 2 0 0 1 2.18 2A19.79 19.79 0 0 1 8.62 8.08A19.5 19.5 0 0 1 15 15a19.79 19.79 0 0 1 3.07 3.07z"></path>
-                    </svg>
+                    <Phone className="w-6 h-6 text-amber-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-800">Phone Numbers</p>
-                    <p className="text-slate-600">USA: +1 330 597 5880</p>
-                    <p className="text-slate-600">UK: +44 203 289 9880</p>
+                    <p className="text-slate-600">PK: +92 123 4567890</p>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="w-6 h-6 text-blue-600"
-                    >
-                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                      <path d="M22 6l-4 12a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2L2 6"></path>
-                      <path d="M16 12h6"></path>
-                    </svg>
+                    <Mail className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-800">Email Address</p>
-                    <p className="text-slate-600">info@quranlearnacademy.com</p>
+                    <p className="text-slate-600">info@noorulquran.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="w-6 h-6 text-green-600"
-                    >
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <polyline points="12 6 12 12 16 14"></polyline>
-                    </svg>
+                    <Clock className="w-6 h-6 text-green-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-800">Available Hours</p>
                     <p className="text-slate-600">24/7 Online Support</p>
-                    <p className="text-slate-600">Classes: 6 AM - 11 PM (GMT)</p>
+                    <p className="text-slate-600">Classes: 09 AM - 05 PM (PKT)</p>
                   </div>
                 </div>
               </div>
