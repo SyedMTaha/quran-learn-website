@@ -49,7 +49,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl">
+            {/* <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl">
               <h4 className="text-lg font-semibold text-slate-800 mb-3">Free Trial Available</h4>
               <p className="text-slate-600 mb-4">
                 Experience our teaching quality with a complimentary 30-minute trial session. No commitment required!
@@ -57,7 +57,7 @@ export default function Contact() {
               <button className="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:shadow-lg focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 outline-none">
                 Book Free Trial
               </button>
-            </div>
+            </div> */}
           </div>
 
           <div className="bg-slate-50 p-8 rounded-xl">
